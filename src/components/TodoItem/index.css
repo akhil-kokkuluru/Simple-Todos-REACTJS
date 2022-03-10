@@ -1,0 +1,34 @@
+.buttons {
+  color: #ff0b37;
+  background-color: transparent;
+  height: 30px;
+  width: 80px;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
+  font-family: Bree serif;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff0b37;
+  font-family: Roboto;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+}
+
+.contBGR {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .buttons {
+    width: 50px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}
